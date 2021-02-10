@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mateusz Stobiecki</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="header--nav">
+      <nav class="nav">
+        <a href="index.html">Strona główna</a>
+        <a href="nauka-html.html">Nauka HTML</a>
+      </nav>
+    </header>
+    <main>
+      <header id="top" class="header--top">
+        <h1>Mateusz Stobiecki - strona domowa</h1>
+      </header>
+      <section class="about-me">
+        <h2>Kim jestem?</h2>
+        <img class="about-me--img" src="logo.png" alt="profil"/>
+        <p class="about-me__paragraph">
+          Na codzień <b>pracuję</b> w firmie <strong>hostingowej</strong> oraz jestem <i>uczestnikiem</i>
+          szkolenia <em><a href="https://cotenfrontend.pl">WTF: Co Ten FrontEnd</a></em>. <a href="#notes">Przejdź do notatek</a>
+        </p>
+      </section>
+      <section id="notes" class="section--notes">
+        <h2 class="lightcoral-header">Notatki z WTF: Co Ten FrontEnd</h2>
+        <article>
+          <h3 class="h3--notes">Jak mi poszło?</h3>
+          <p class="h3--paragraph">
+            W pierwszym tygodniu zapoznałem się z zasadami kursu oraz pobrałem
+            IDE, które będzie służyło mi czas szkolenia.
+          </p>
+        </article>
+        <article class="article--notes">
+          <h3 class="lightcoral-header">Notatki z WTF: Co Ten FrontEnd</h3>
+          <h4 class="h4_header--notes">Tydzień II - 11.01.2021</h4>
+          <p class="notes--paragraph"> 
+            Poznałem podstawy HTMLa oraz CSSa. 
+          </p>
+          <p class="notes--paragraph">Nazewnictwo - camelCase, kebeb-case, snake_case, PascalCase.</p>
+          <p class="notes--paragraph">Specyficzność w CSSie: !important, style, #name, .name, element.</p>
+          </article>
+      </section>
+    </main>
+    <footer class="footer">
+      Strona domowa Mateusza Stobieckiego - wszystkie treści są efektem
+      szkolenia WTF: Co Ten FrontEnd. <br>
+      <a href="#top">Przejdź na górę strony</a>
+    </footer>
+    <script src="main.js"></script> 
+  </body>
+</html>

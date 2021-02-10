@@ -1,0 +1,27 @@
+body {
+    background: #fefefe; 
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: #1460AA; 
+}
+
+.lightcoral-header {
+    color: lightcoral;
+}
+
+#top {
+    background: lightgreen;
+}
+
+a {
+    color: #e28000
+}
+
+nav a {
+    color: #1460AA;
+}
