@@ -4,52 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mateusz Stobiecki</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <header class="header--nav">
-      <nav class="nav">
-        <a href="index.html">Strona główna</a>
-        <a href="nauka-html.html">Nauka HTML</a>
+    <header class="header">
+      <nav class="navigation">
+        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
+        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+        <a class="navigation__link" href="spis-lekcji.html">Spis lekcji</a>
       </nav>
     </header>
     <main>
-      <header id="top" class="header--top">
-        <h1>Mateusz Stobiecki - strona domowa</h1>
+      <header id="top">
+        <h1 class="main-heading main-heading--js">Mateusz Stobiecki - strona domowa</h1>
       </header>
       <section class="about-me">
-        <h2>Kim jestem?</h2>
-        <img class="about-me--img" src="logo.png" alt="profil"/>
+        <h2 class="about-me__header">Kim jestem?</h2>
+        <img class="about-me__img" src="logo.png" alt="profil" />
         <p class="about-me__paragraph">
-          Na codzień <b>pracuję</b> w firmie <strong>hostingowej</strong> oraz jestem <i>uczestnikiem</i>
-          szkolenia <em><a href="https://cotenfrontend.pl">WTF: Co Ten FrontEnd</a></em>. <a href="#notes">Przejdź do notatek</a>
+          Na codzień <b>pracuję</b> w firmie <strong>hostingowej</strong> oraz
+          jestem <i>uczestnikiem</i> szkolenia
+          <em><a href="https://cotenfrontend.pl">WTF: Co Ten FrontEnd</a></em
+          >. <a href="#notes">Przejdź do notatek</a>
         </p>
       </section>
-      <section id="notes" class="section--notes">
-        <h2 class="lightcoral-header">Notatki z WTF: Co Ten FrontEnd</h2>
-        <article>
-          <h3 class="h3--notes">Jak mi poszło?</h3>
-          <p class="h3--paragraph">
+      <section id="notes" class="notes">
+        <h2 class="notes__title">Notatki z WTF: Co Ten FrontEnd</h2>
+        <article class="notes-article">
+          <h3 class="notes-article__title">Jak mi poszło w pierwszym tygodniu?</h3>
+          <p class="notes__article--paragraph">
             W pierwszym tygodniu zapoznałem się z zasadami kursu oraz pobrałem
             IDE, które będzie służyło mi czas szkolenia.
           </p>
         </article>
-        <article class="article--notes">
-          <h3 class="lightcoral-header">Notatki z WTF: Co Ten FrontEnd</h3>
-          <h4 class="h4_header--notes">Tydzień II - 11.01.2021</h4>
-          <p class="notes--paragraph"> 
-            Poznałem podstawy HTMLa oraz CSSa. 
+        <article class="notes-article">
+          <h4 class="notes-article__title">Tydzień II - 11.01.2021</h4>
+          <p class="notes__article--paragraph">Poznałem podstawy HTMLa oraz CSSa.</p>
+          <p class="notes__article--paragraph">
+            Nazewnictwo - camelCase, kebeb-case, snake_case, PascalCase.
           </p>
-          <p class="notes--paragraph">Nazewnictwo - camelCase, kebeb-case, snake_case, PascalCase.</p>
-          <p class="notes--paragraph">Specyficzność w CSSie: !important, style, #name, .name, element.</p>
-          </article>
+          <p class="notes__article--paragraph">
+            Specyficzność w CSSie: !important, style, #name, .name, element.
+          </p>
+        </article>
       </section>
     </main>
     <footer class="footer">
       Strona domowa Mateusza Stobieckiego - wszystkie treści są efektem
-      szkolenia WTF: Co Ten FrontEnd. <br>
+      szkolenia WTF: Co Ten FrontEnd. <br />
       <a href="#top">Przejdź na górę strony</a>
     </footer>
-    <script src="main.js"></script> 
+    <script src="main.js"></script>
   </body>
 </html>

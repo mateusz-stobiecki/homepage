@@ -2,7 +2,7 @@ body {
     background: #fefefe; 
 }
 
-h1 {
+.main-heading {
     color: blue;
 }
 
@@ -10,7 +10,13 @@ h2 {
     color: #1460AA; 
 }
 
-.lightcoral-header {
+.notes-article {
+    padding: 16px;
+    border: 1px solid #1460AA;
+    margin-bottom: 20px;
+}
+
+.notes-article__title {
     color: lightcoral;
 }
 
@@ -19,9 +25,21 @@ h2 {
 }
 
 a {
-    color: #e28000
+    color: #e28000;
+} 
+
+.navigation {
+    background: #e28000; 
+    padding: 16px; 
+    border-radius: 8px;
 }
 
-nav a {
-    color: #1460AA;
+.navigation__link {
+    color: #fff; 
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation__link--homepage {
+    color: #8cd0eb;
 }
