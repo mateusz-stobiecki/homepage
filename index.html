@@ -1,59 +1,53 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mateusz Stobiecki</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <header class="header">
-      <nav class="navigation">
-        <a class="navigation__link navigation__link--homepage" href="index.html">Strona główna</a>
-        <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
-        <a class="navigation__link" href="spis-lekcji.html">Spis lekcji</a>
-      </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WTF: Co Ten FrontEnd</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <a class="navigation__link" href="index.html">Strona główna</a>
+      <a class="navigation__link" href="nauka-html.html">Nauka HTML</a>
+      <a class="navigation__link" href="spis-lekcji.html">Spis lekcji</a>
+    </nav>
+  </header>
+  <main>
+    <header id="#top">
+      <h1 class="main-header main-header--js">Mateusz Stobiecki - strona domowa</h1>
     </header>
-    <main>
-      <header id="top">
-        <h1 class="main-heading main-heading--js">Mateusz Stobiecki - strona domowa</h1>
-      </header>
-      <section class="about-me">
-        <h2 class="about-me__header">Kim jestem?</h2>
-        <img class="about-me__img" src="logo.png" alt="profil" />
-        <p class="about-me__paragraph">
-          Na codzień <b>pracuję</b> w firmie <strong>hostingowej</strong> oraz
-          jestem <i>uczestnikiem</i> szkolenia
-          <em><a href="https://cotenfrontend.pl">WTF: Co Ten FrontEnd</a></em
-          >. <a href="#notes">Przejdź do notatek</a>
-        </p>
-      </section>
-      <section id="notes" class="notes">
-        <h2 class="notes__title">Notatki z WTF: Co Ten FrontEnd</h2>
-        <article class="notes-article">
-          <h3 class="notes-article__title">Jak mi poszło w pierwszym tygodniu?</h3>
-          <p class="notes__article--paragraph">
-            W pierwszym tygodniu zapoznałem się z zasadami kursu oraz pobrałem
-            IDE, które będzie służyło mi czas szkolenia.
-          </p>
-        </article>
-        <article class="notes-article">
-          <h4 class="notes-article__title">Tydzień II - 11.01.2021</h4>
-          <p class="notes__article--paragraph">Poznałem podstawy HTMLa oraz CSSa.</p>
-          <p class="notes__article--paragraph">
-            Nazewnictwo - camelCase, kebeb-case, snake_case, PascalCase.
-          </p>
-          <p class="notes__article--paragraph">
-            Specyficzność w CSSie: !important, style, #name, .name, element.
-          </p>
-        </article>
-      </section>
-    </main>
-    <footer class="footer">
-      Strona domowa Mateusza Stobieckiego - wszystkie treści są efektem
-      szkolenia WTF: Co Ten FrontEnd. <br />
-      <a href="#top">Przejdź na górę strony</a>
-    </footer>
-    <script src="main.js"></script>
-  </body>
+    <img class="main-logo" src="logo.png" alt="logo-css">
+    <section class="about-me">
+      <h2 class="about-me--header">Kim jestem?</h2>
+      <p class="about-me--paragraph">Na codzień <b>pracuję</b> w firmie <strong>hostingowej</strong> oraz
+        jestem <i>uczestnikiem</i> szkolenia
+        <em><a href="https://cotenfrontend.pl">WTF: Co Ten FrontEnd</a></em
+        >. <a href="#notes">Przejdź do notatek</a></p>
+    </section>
+    <section class="content-wtf">
+      <h2 class="content-wtf--header">Notatki z WTF Co Ten FrontEnd</h2>
+      <article class="notes">
+        <h2 class="notes--header">Tydzień: I</h2>
+        <p class="notes--paragraph">Poznałem zasady kursu, skonfigurowałem swoje środowisko oraz dołączyłem do grupy na Slacku.</p>
+      </article>
+      <article class="notes notes--special">
+        <h2 class="notes--header">Tydzień: II</h2>
+        <p class="notes--paragraph">Poznałem podstawy HTMLa wraz z CSSem oraz wykonałem pracę domową.</p>
+      </article>
+      <article class="notes">
+        <h2 class="notes--header">Tydzień: III</h2>
+        <p class="notes--paragraph">Dowiedziałem się czym jest JavaScript oraz napisałem swój pierwszy skrypt.</p>
+      </article>
+    </section>
+  </main>
+  <footer>
+    Strona domowa Mateusza Stobieckiego - wszystkie treści są efektem
+    szkolenia WTF: Co Ten FrontEnd. <br />
+    <a href="#top">Przejdź na górę strony</a>
+  </footer>
+  <script src="main.js"></script>
+</body>
 </html>

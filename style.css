@@ -1,45 +1,42 @@
 body {
-    background: #fefefe; 
+    background: #fefefe;
 }
-
-.main-heading {
-    color: blue;
-}
-
-h2 {
-    color: #1460AA; 
-}
-
-.notes-article {
-    padding: 16px;
-    border: 1px solid #1460AA;
-    margin-bottom: 20px;
-}
-
-.notes-article__title {
-    color: lightcoral;
-}
-
-#top {
-    background: lightgreen;
-}
-
-a {
-    color: #e28000;
-} 
 
 .navigation {
-    background: #e28000; 
+    background: #077dac;
     padding: 16px; 
     border-radius: 8px;
 }
 
 .navigation__link {
-    color: #fff; 
+    color: #fefe;
     display: inline-block;
     margin-right: 20px;
+
 }
 
-.navigation__link--homepage {
-    color: #8cd0eb;
+.main-header {
+    color: #089bfd;
+}
+
+.about-me--header {
+    color: lightcoral;
+}
+
+.content-wtf--header {
+    color: lightseagreen;
+}
+
+.notes {
+    border: 1px solid lightsalmon;
+    margin-bottom: 20px;
+    padding: 8px;
+}
+
+.notes--special {
+    border: 1px solid red;
+}
+
+.notes--header {
+    color: #1460AA;
 }
